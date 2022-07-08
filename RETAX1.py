@@ -80,7 +80,7 @@ choice = str(input(" \033[94mMethods: "))
 times = int(input(" \033[0;31mPacket:"))
 threads = int(input(" \033[0;32mThreads:"))
 def run():
-	data = random._urandom(577)
+	data = random._urandom(487)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
